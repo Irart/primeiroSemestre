@@ -1,0 +1,144 @@
+   
+
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #A9A9A9;
+  }
+  
+  .ativo {
+    background-color: #008B8B;
+
+}
+
+a{
+    text-decoration: none;
+}
+#logo {
+    padding: 0.3125em 0.625em;
+    font-size: 2em;
+   text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+    text-decoration: none;
+    list-style-type: none;
+    
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+
+}
+
+#lg{
+
+    background-image: url(assert/imagens/fundo_logo-6.jpg);
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0);
+    text-transform: uppercase;
+
+}
+
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+
+    margin: auto;
+    
+}
+
+#img1 {
+
+    margin: 0% 0% 2% ;
+
+}
+
+#texto {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 20%;
+    justify-content: center;
+}
+
+
+#texto1 {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 0.0.1em;
+        float: left;
+        width: 28%;
+        height: 100%;
+        margin-right: 5%;
+    
+    }
+#texto2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 0.0.1em;
+    float: left;
+    width: 28%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+#texto3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 0.0.1em;
+    float: left;
+    width: 28%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+
+
+#sub{
+    text-align: center;
+    }
+
+.rodape {
+    text-align: center;
+    color: #008B8B;
+background: black;
+border-radius: 1%;
+height: 100%;
+clear: both;
+border: 0.5em solid black;
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #A9A9A9;
+  }
+  
+  .ativo {
+    background-color: #008B8B;
+
+}
+
+a{
+    text-decoration: none;
+}
+#logo {
+    padding: 0.3125em 0.625em;
+    font-size: 2em;
+   text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+    text-decoration: none;
+    list-style-type: none;
+    
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+
+}
+
+#lg{
+
+    background-image: url(assert/imagens/fundo_logo-6.jpg);
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0);
+    text-transform: uppercase;
+
+}
+    body{
+    background-color: aliceblue;
+    }
+
+.formulario{
+margin-left: 30%;
+margin-bottom: 10%;
+    width: 25em;
+    padding: 1.875em;
+    border: 0.0625 solid #ccc;
+    }
+
+
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 0.9375em 0;
+}
+.field label, 
+.field span{
+    padding-left: 0.625em;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 0.625em;
+    height: 1.875em;
+    line-height: 1.875em;
+    border-radius: 0.9375em;
+    border: 0.0625em solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 0.9375em;
+}
+textarea{
+    line-height: 1.25em;
+    padding: 0.625em;
+    height: 5.625em;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #8db6cd;
+    height: 2.1875em;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 6.25em;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0.9375em;
+}
+
+#rodape{
+
+    text-align: center;
+        color: #008B8B;
+    background: black;
+    border-radius: 1%;
+    height: 100%;
+    clear: both;
+    border: 0.5em solid black;
+    }

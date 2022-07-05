@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME-News T.I</title>
+    <link rel="stylesheet" type="text/css" href="p1_home.css">
+</head>
+
+
+<body>
+    <script> 
+        const greetingMessage = () => { 
+         let h = new Date().toLocaleTimeString('pt-BR', { hour: 'numeric', hour12: false }); 
+         let d = new Date().toLocaleDateString('pt-BR', { weekday: 'long' }); 
+         if (h <= 5) return 'Boa madrugada! Hoje é ' + d + "."; 
+         if (h < 12) return 'Bom dia! Hoje é ' + d + "."; 
+         if (h < 18) return 'Boa tarde! Hoje é ' + d + "."; 
+         return 'Boa noite! Hoje é ' + d + "."; 
+        } 
+       
+        function exibeAlert() { 
+         alert((greetingMessage()) + "\n\nSou o Irart Santos.\nResido em São Paulo.\nEstudo Análise e Desenvolvimento pela Mackenzie!"); 
+        } 
+
+        exibeAlert()
+       </script>
+
+    <div id="logo">
+        <h1 id="lg">NEWS T.I</h1>
+    </div>
+
+   <nav class="menu">
+    <ul id="mn">
+    <li><a href="p1_home.html"class="ativo">Home</a></li>
+    <li><a href="p2_noticia.html">Notícias</a></li>
+    <li><a href="p3-sobre.html">Sobre</a></li>
+    <li><a href="p4_formulario.html">Contato</a></li>
+</ul>
+</nav>
+
+
+            <div id="img1">
+                <img src="assert/imagens/imageminicial.JPG.jpg" height="100%" width="100%" alt="Legenda: Na era da digitalização, a migração para a nuvem é uma das estratégias mais buscadas pelas empresas.">
+            </div>
+ <section id="texto">           
+<article id="texto1">
+    <h3><strong>Na era da transformação digital</strong>&nbsp;&nbsp;</h3>
+    <br>
+    <p>     A transformação digital das empresas, acelerada pela pandemia, colocou os profissionais de Tecnologia da Informação (TI) no patamar dos mais disputados pelo mercado. De acordo com a pesquisa&nbsp;FEEx&nbsp;– FIA&nbsp;Employee&nbsp;Experience, quem&nbsp;atua com tecnologia recebe 84% mais convites para participar de processos seletivos em outra organização na comparação com a média geral de profissionais.&nbsp;&nbsp;</p>
+
+    <p>A migração repentina para o home office exigiu das empresas gente preparada para atender&nbsp;às&nbsp;demandas do trabalho nessa modalidade, com acesso remoto e seguro de redes. Além disso, esses profissionais são fundamentais para a criação de estruturas de segurança da informação, análise de dados e migração da empresa para web, necessidades que se tornaram mais urgentes na pandemia.&nbsp;&nbsp;</p>
+
+    <p>Mas no processo de transformação digital, as possibilidades de atuação dos profissionais de TI vão para além das demandas geradas no contexto do trabalho remoto. “É preciso entender aqui que diversas atividades atuais serão substituídas pelas máquinas, o que vai nos obrigar a desenvolver novas competências e a redesenhar a formação acadêmica para enfrentar este desafio”, prevê&nbsp;Alzir&nbsp;Falcão, professor do Curso de Ciência da Computação da Universidade de Fortaleza (Unifor).&nbsp;&nbsp;</p>
+<br><br>
+    </article>
+
+<article id="texto2">
+    <h3><strong>Transformação cultural</strong>&nbsp;&nbsp;</h3>
+    <br>
+
+    <p>     A mudança tecnológica começa na cultura das organizações. Como observa&nbsp;Alzir&nbsp;Falcão, alguns paradigmas atrasam ou limitam o processo de transformação digital de algumas empresas, como acreditar que é preciso um&nbsp;grande orçamento antes mesmo de começar. “Na verdade, existem mais exemplos de transformações digitais malsucedidas, que começam com grandes orçamentos, do que aqueles que começaram com pequenos investimentos em áreas críticas”, observa.&nbsp;&nbsp;</p>
+
+    <p>Outro equívoco é achar que a transformação digital permitirá seguir fazendo as mesmas práticas, apenas com a nova tecnologia incorporada. “Transformação digital é entender que as regras do jogo mudaram essencialmente. Você não está apenas tentando transformar seu negócio, colocando suas práticas existentes na internet. E não se trata apenas de uma grande iniciativa.&nbsp;Não é para o relatório trimestral dos acionistas. É algo que você só precisa fazer uma vez, mas deve ser capaz de sustentar por meio da cultura e da prática ao longo dos anos”, finaliza o professor.</p>
+</article>
+
+<article id="texto3">
+    <h3><strong>Computação em nuvem</strong>&nbsp;&nbsp;</h3>
+<br>
+    <p>     Na era da digitalização, a migração para a nuvem é uma das estratégias mais buscadas pelas empresas. “A nuvem é o que torna possível atingir a alta velocidade exigida nesta era. Torna os serviços necessários mais rápidos, flexíveis e seguros”, afirma o professor&nbsp;Alzir&nbsp;Falcão.&nbsp;&nbsp;</p>
+
+    <p>Todo esse processo, explica, exige segurança de TI, mas também “exige uma gestão sofisticada da qualidade de TI, vital no mundo digital, aliada a uma relevante experiência em transformação digital. Um parceiro de TIC&nbsp;(Tecnologia da Informação e Comunicação)&nbsp;é, portanto, como o ‘arquiteto do futuro digital’ de uma empresa”, avalia.&nbsp;&nbsp;</p>
+</article>
+</section>
+<footer class="rodape">
+
+    <footer>
+        <script>
+        var nome = ("Irart Santos");
+        var ano = 2022;
+        //var twitter = ("@irart");
+        //var facebook = ("@irart");
+        //var instagram = ("@irart")
+        var linkedIn = ("Irart Santos");
+        var gitHub = ("Irart Santos");
+
+        
+        document.write(nome);
+        document.write("<br>");
+        document.write("Ano: ",ano);
+        document.write("<br>");
+        //document.write("Twitter: ",twitter)
+        //document.write("<br>");
+        //document.write("Facebook: ",facebook);
+        //document.write("<br>");
+        //document.write("Instagam: ",instagram);
+        //document.write("<br>");
+        document.write("Linked-In: ",linkedIn);
+        document.write("<br>");
+        document.write("GitHub: ",gitHub);
+        </script>      
+        </footer>
+</footer>
+
+</body>
+
+</html>
